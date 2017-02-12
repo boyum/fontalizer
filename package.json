@@ -1,0 +1,32 @@
+{
+  "name": "electron-fontalizer",
+  "version": "0.0.1",
+  "description": "Fontalizer for desktop",
+  "main": "main.js",
+  "scripts": {
+    "package": "electron-packager . Fontalizer --overwrite",
+    "package-all": "electron-packager . Fontalizer --platform=all --arch=all --overwrite",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boyum/fontalizer.git"
+  },
+  "keywords": [
+    "fontalizer"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boyum/fontalizer/issues"
+  },
+  "homepage": "https://github.com/boyum/fontalizer#readme",
+  "dependencies": {
+    "electron": "^1.4.15",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.5.1"
+  }
+}
